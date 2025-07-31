@@ -2,13 +2,13 @@ body{
     font-family:"Arial", "Meiryo", sans-serif ;
 }
 
-.body{
-    font-size 20px;
+html{
+    font-size: 20px;
 }
 
 .decoration{
     border-bottom:  solid 3px rgb(115, 115, 114);
-    font-size: 40px;
+    font-size: 2rem;
     font: sans-serif;
     letter-spacing: 1.2em;
     font-style: josefin-sans-<uniquifier> 
