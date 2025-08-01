@@ -1,25 +1,19 @@
-body{
-    font-family:"Arial", "Meiryo", sans-serif ;
-}
-
 html{
     font-size: 20px;
 }
 
-.decoration{
-    border-bottom:  solid 3px rgb(115, 115, 114);
-    font-size: 2rem;
-    font: sans-serif;
-    letter-spacing: 1.2em;
-    font-style: josefin-sans-<uniquifier> 
-  font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  text-shadow: 1px 1px 2px gray;
-  text-align: center;
-
+body{
+    font-family:"Arial", "Meiryo", sans-serif ;
+      text-align: center;
 }
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+     font-size: 2rem;
+      letter-spacing: 1.2em;
+      text-shadow: 1px 1px 2px gray;
+        border-bottom:  solid 3px rgb(115, 115, 114);
+} 
 
 .text-pink {
     color: rgb(255,192,203);
@@ -29,10 +23,6 @@ html{
     color: skyblue
 }
 
-#parent {
-    text-align: center;
-}
-
-#parent > p {
+#basic > p  {
     font-weight: bold;
 }
